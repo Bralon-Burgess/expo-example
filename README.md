@@ -48,6 +48,8 @@
 
     npx expo run:ios --device
 
+    npx expo start (if this doesn't work, do what it recommends)
+
     <!-- Using Bun -->
 
     bunx expo run:android --device
