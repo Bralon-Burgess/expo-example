@@ -1,6 +1,7 @@
 import { Pressable, Text, View } from 'react-native'
 import { StatusBar } from "expo-status-bar"
 import { openBrowserAsync } from 'expo-web-browser';
+import NoteTaker from 'components/NoteTaker';
 
 export default function Home() {
 
@@ -28,6 +29,12 @@ export default function Home() {
             Created by <Text className="font-extrabold text-[#2e78b7]">Anda Hanise</Text>
           </Text>
         </Pressable>
+      </View>
+      <View style={{ flex: 1, padding: 20 }}>
+        <Text style={{ fontSize: 24, marginBottom: 20, fontWeight: 'bold' }}>
+          My Notes
+        </Text>
+        <NoteTaker />
       </View>
     </View>
   )
