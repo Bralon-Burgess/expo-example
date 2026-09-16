@@ -3,6 +3,7 @@
 **Expo** Basic Authentication Template using **Context Provider** & `expo-secure-store` to persist user on the device.
 
 > **Note:** This app is using the **Expo SDK 57**, **React Native v0.86.0**, **React v19.2.3**, **Expo Router v57** with the **Nativewind v5 Preview (Tailwindcss v4)**
+> **Additional Note: To test this app, the method may involve using the --force tag for some of the commands
 
 ![app](/assets/images/App%20Showcase.png)
 
@@ -48,13 +49,15 @@
 
     npx expo run:ios --device
 
-    npx expo start (if this doesn't work, do what it recommends)
-
     <!-- Using Bun -->
 
     bunx expo run:android --device
 
     bunx expo run:ios --device
+
+    <!-- Using Expo Go (RECOMMENDED) -- >
+
+     npx expo start
 
 ### Update the expo packages
 
